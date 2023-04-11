@@ -2,6 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
     name: 'queue',
+    aliases: 'q',
     description: 'Get the songs in the queue',
     voiceChannel: true,
 
